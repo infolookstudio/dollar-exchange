@@ -1141,9 +1141,28 @@ li.clock1::before {
 }
 
 .heroarea {
-  background-image: url(../img/ff.png);
-  background-size: contain;
-  background-position: center center;
+  overflow: hidden;
+}
+.heroarea::after,
+.heroarea::before {
+  background-image: url(../img/hero-left.png);
+  left: 0px;
+  top: 0;
+  content: "";
+  width: 323px;
+  height: 422px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: left bottom;
+  transform: translateX(-80px);
+}
+
+.heroarea::before {
+  background-image: url(../img/hero-right.png);
+  left: auto;
+  right: 0px;
+  transform: translateX(80px);
 }
 
 .securityicon img {
