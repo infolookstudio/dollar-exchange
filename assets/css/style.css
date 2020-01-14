@@ -1167,7 +1167,7 @@ li.clock1::before {
 
 .securityicon img {
   transform: scale(1);
-  transition: .2s;
+  transition: .1s;
 }
 
 .securitybox:hover .securityicon img {
