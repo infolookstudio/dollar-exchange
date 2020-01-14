@@ -858,7 +858,7 @@ li.clock1::before {
 
 .login-content h4 {
   font-size: 25px;
-  font-weight: 700;
+  font-weight: 900;
   color: #2c2d35;
   margin-bottom: 22px;
 }
@@ -1139,7 +1139,7 @@ li.clock1::before {
 
 .heroarea {
   background-image: url(../img/ff.png);
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
 }
 
@@ -1148,10 +1148,15 @@ li.clock1::before {
   transition: .2s;
 }
 
-.securityicon img:hover {
+.securitybox:hover .securityicon img {
   transform: scale(1.2);
 }
 
 .login-us input:focus {
-  outline: 1px solid #0076C9;
+  border: 1px solid #0076C9;
+  border-radius: 6px;
+}
+
+.custom-area {
+  padding: 65px 0;
 }
