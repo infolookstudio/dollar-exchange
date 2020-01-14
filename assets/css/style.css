@@ -1113,9 +1113,12 @@ li.clock1::before {
 }
 
 .main-menu li a {
-  color: #858585 !important;
+  color: #393939 !important;
   position: relative;
   padding: 29px 0px;
+}
+.main-menu li a:hover {
+  color: #2390DC !important;
 }
 
 .main-menu li a:hover::after {
