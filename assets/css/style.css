@@ -1182,3 +1182,11 @@ li.clock1::before {
 .custom-area {
   padding: 65px 0;
 }
+
+.random-notification {
+  color: #fff;
+}
+
+.services-title h1 {
+  margin-bottom: 60px;
+}
