@@ -18,14 +18,6 @@
 
         $('select').niceSelect();
 
-    /* smooth scroll */
-    $("a[href^='#']").click(function(e) {
-        e.preventDefault();
-        var position = $($(this).attr("href")).offset().top;
-        $("body, html").animate({
-            scrollTop: position
-        } /* speed */ );
-    });
 
     /* smooth scroll */
     $(".single-slider-item").owlCarousel({
