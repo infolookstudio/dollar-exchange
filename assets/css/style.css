@@ -1262,6 +1262,7 @@ li.clock1::before {
   background-image: url(../img/hero-shape-1.png);
   background-position: center bottom;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .compare-rate-area .heading-title {
