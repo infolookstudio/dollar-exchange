@@ -1324,12 +1324,6 @@ li.clock1::before {
   }
 }
 
-/* #animate-area {
-  width: 560px;
-  height: 400px;
-  background-image: url(bg-clouds.png);
-} */
-
 .compare-rate-area::after {
   background-image: url(../img/hero-shape-1.png);
   content: "";
@@ -1341,10 +1335,10 @@ li.clock1::before {
   z-index: -1;
   background-position: bottom;
   background-repeat: repeat-x;
-  animation: animatedBackground 30s linear infinite;
-  -ms-animation: animatedBackground 30s linear infinite;
-  -moz-animation: animatedBackground 30s linear infinite;
-  -webkit-animation: animatedBackground 30s linear infinite;
+  animation: animatedBackground 20s linear infinite;
+  -ms-animation: animatedBackground 20s linear infinite;
+  -moz-animation: animatedBackground 20s linear infinite;
+  -webkit-animation: animatedBackground 20s linear infinite;
 
 }
 
