@@ -275,7 +275,7 @@ li.clock1::before {
 }
 
 .heroarea {
-  background: linear-gradient(-45deg, #ee7752, #064588, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #982584, #064588, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   position: relative;
