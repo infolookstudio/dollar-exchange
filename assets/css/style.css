@@ -3,22 +3,30 @@
 
 
 .alignleft {
-    float: left;
-    margin-right: 15px;
+  float: left;
+  margin-right: 15px;
 }
+
 .alignright {
-    float: right;
-    margin-left: 15px;
+  float: right;
+  margin-left: 15px;
 }
+
 .aligncenter {
-    display: block;
-    margin: 0 auto 15px;
+  display: block;
+  margin: 0 auto 15px;
 }
-a:focus, input:focus { outline: 0 solid }
+
+a:focus,
+input:focus {
+  outline: 0 solid
+}
+
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
+
 h1,
 h2,
 h3,
@@ -31,6 +39,7 @@ h6 {
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
 }
+
 body {
   color: #231f20;
   font-weight: 400;
@@ -39,40 +48,48 @@ body {
 }
 
 @font-face {
-    font-family:RusticLoveTattoo;
-    src: url(../fonts/RusticLoveTattoo.otf);
+  font-family: RusticLoveTattoo;
+  src: url(../fonts/RusticLoveTattoo.otf);
 }
 
 .selector-for-some-widget {
   box-sizing: content-box;
 }
-a:hover { text-decoration: none }
+
+a:hover {
+  text-decoration: none
+}
 
 
 
 /* Headertop section start */
 
 .headertoparea {
-  background: #074e93;
+  background: #091E2E;
   padding: 10px 0;
 }
+
 .headertopmain {
   display: flex;
   align-items: center;
 }
+
 .headertopadmin ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 .headertopadmin ul li {
   display: inline-block;
 }
+
 .headertop-contact ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 .headertop-contact ul li {
   display: inline-block;
   color: #c6d3de;
@@ -85,6 +102,7 @@ a:hover { text-decoration: none }
   color: #c6d3de;
   font-weight: 500;
 }
+
 .headertopadmin li.active1 a {
   color: #feffff;
   background: #00a651;
@@ -92,17 +110,21 @@ a:hover { text-decoration: none }
   padding: 0px 6px;
   border-radius: 4px;
 }
+
 .headertopadmin {
   margin-right: 40px;
 }
+
 .headertopadmin span {
   margin: 0 5px;
 }
+
 li.clock1 {
   position: relative;
   margin-left: 7px;
   padding-left: 12px;
 }
+
 li.clock1::before {
   position: absolute;
   left: 0;
@@ -127,23 +149,28 @@ li.clock1::before {
   align-items: center;
   height: 76px;
 }
+
 .headerleft {
   display: flex;
   align-items: center;
 }
+
 .mainmenu ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 .mainmenu ul li {
   display: inline-block;
 }
+
 .headerright.text-right ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 .headerright.text-right ul li {
   display: inline-block;
 }
@@ -158,14 +185,17 @@ li.clock1::before {
   -ms-flex-pack: end;
   justify-content: end;
 }
+
 .headerright ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 .headerright ul li {
   display: inline-block;
 }
+
 .mainmenu ul li a {
   display: inline-block;
   margin-left: 30px;
@@ -173,12 +203,15 @@ li.clock1::before {
   color: #858585;
   font-weight: 700;
 }
+
 .mainlogo {
   margin-right: 12px;
 }
+
 .mainmenu ul li a:hover {
   color: #2390dc;
 }
+
 .headerright ul li a {
   display: inline-block;
   background: #2390dc;
@@ -188,6 +221,7 @@ li.clock1::before {
   padding: 8px 12px;
   border-radius: 6px;
 }
+
 .headerright li.account1 a {
   background: #f46d20;
   margin-left: 6px;
@@ -223,6 +257,7 @@ li.clock1::before {
   position: relative;
   z-index: 22;
 }
+
 .heroarea {
   background: #0a71b9;
   position: relative;
@@ -235,7 +270,7 @@ li.clock1::before {
   right: 0;
   top: 0;
   width: 92%;
-  transform: translate(4%,8%);
+  transform: translate(4%, 8%);
 }
 
 
@@ -257,18 +292,22 @@ li.clock1::before {
   font-size: 24px;
   text-transform: capitalize;
 }
+
 .sendbox a:hover {
   background: #cee4f2;
 }
+
 .sendtext {
   padding: 0px 12px;
 }
+
 .sendbox span {
   font-size: 14px;
   font-weight: 700;
   padding-left: 8px;
   color: #4f4f4f;
 }
+
 .herotitle h1 {
   font-size: 40px;
   color: #fff;
@@ -287,18 +326,22 @@ li.clock1::before {
   align-items: center;
   width: 100%;
 }
+
 .bkashtk span {
   padding-left: 0;
 }
+
 .bkashtk p {
   margin-bottom: 0;
   font-size: 14px;
   font-weight: 500;
   color: #898989;
 }
+
 .bkashtk {
   padding-left: 8px;
 }
+
 .buttons button {
   background: #dfdfdf;
   border: none;
@@ -310,10 +353,11 @@ li.clock1::before {
 }
 
 .sendbox.rightsend a:hover {
-  background: transparent;
+  background: #CEE4F2;
 }
+
 .sendbox.rightsend a:hover button {
-  background: #2390dc;
+  background: #F46D20;
   color: #fff;
 }
 
@@ -341,17 +385,21 @@ li.clock1::before {
   border-radius: 8px;
   height: 262px;
 }
+
 .securityarea {
   padding: 48px 0;
 }
+
 .securitytitle.text-center h1 {
   font-size: 50px;
   font-weight: 700;
   color: #231f20;
 }
+
 .securitybox.securitybox2 {
   background: #e0f0eb;
 }
+
 .securityicon img {
   margin-top: -38px;
 }
@@ -359,6 +407,7 @@ li.clock1::before {
 .securitycontent {
   padding: 28px 82px;
 }
+
 .securitycontent p {
   margin-bottom: 0;
   color: #231f20;
@@ -366,6 +415,7 @@ li.clock1::before {
   font-weight: 400;
   line-height: 28px;
 }
+
 .securitycontent h4 {
   font-weight: 700;
   font-size: 25px;
@@ -501,12 +551,15 @@ li.clock1::before {
 .footerlogo {
   display: flex;
 }
+
 .address {
   padding-top: 10px;
 }
+
 .footerlogomain {
   margin-right: 28px;
 }
+
 .address a {
   display: inline-block;
   margin-left: 6px;
@@ -523,6 +576,7 @@ li.clock1::before {
   padding: 0;
   list-style: none;
 }
+
 .footershape ul li {
   display: inline-block;
 }
@@ -536,6 +590,7 @@ li.clock1::before {
   display: inline-block;
   margin: 0 15px;
 }
+
 .footershape {
   text-align: center;
 }
@@ -546,9 +601,11 @@ li.clock1::before {
   padding: 0;
   list-style: none;
 }
+
 .footersocial ul li {
   display: inline-block;
 }
+
 .footercontactwraps {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -559,6 +616,7 @@ li.clock1::before {
   -ms-flex-pack: end;
   justify-content: end;
 }
+
 .footercontact a {
   font-size: 16px;
   color: #fff;
@@ -622,7 +680,7 @@ li.clock1::before {
 
 
 
-.footershape ul li a:hover{
+.footershape ul li a:hover {
   color: #2390dc;
 }
 
@@ -632,12 +690,14 @@ li.clock1::before {
 .footershapewrap {
   position: relative;
 }
+
 .footershape1 {
   position: absolute;
   left: 0;
   top: 0;
   z-index: 1;
 }
+
 .footershape1 img {
   width: 100%;
 }
@@ -683,10 +743,12 @@ li.clock1::before {
   padding: 0;
   list-style: none;
 }
+
 .main-menu ul li {
   display: inline-block;
   margin-right: 40px;
 }
+
 .main-menu ul li a {
   color: #2e2e30;
   font-size: 18px;
@@ -717,7 +779,7 @@ li.clock1::before {
   border-radius: 6px;
   text-align: center;
   transition: .3s;
-  background: #064588;
+  background: #F46D20;
 }
 
 
@@ -736,7 +798,7 @@ li.clock1::before {
 
 .log-info ul li a:hover {
   color: #fff;
-  background: #022b57;
+  background: #d45208;
 }
 
 .log-info ul li a.black-text:hover {
@@ -762,6 +824,7 @@ li.clock1::before {
   display: inline-block;
   margin-left: 16px;
 }
+
 .header-area {
   height: 80px;
   display: flex;
@@ -781,13 +844,13 @@ li.clock1::before {
 
 
 .for-loginmethod .modal-header {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -ms-flex-pack: justify;
-    justify-content: flex-end;
-    padding: 2px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-pack: justify;
+  justify-content: flex-end;
+  padding: 2px 0;
   border-bottom: 0px;
 }
 
@@ -843,7 +906,7 @@ li.clock1::before {
 .for-loginmethod .modal-content {
   position: relative;
   background-color: #F5F5F5;
-  border: 1px solid rgba(0,0,0,.2);
+  border: 1px solid rgba(0, 0, 0, .2);
   border-radius: .3rem;
   outline: 0;
 }
@@ -883,20 +946,24 @@ li.clock1::before {
   font-weight: 500;
   font-size: 16px;
 }
+
 .try-thisfield a {
   display: block;
   color: #2c2d35;
   font-weight: 500;
   font-size: 16px;
 }
+
 .try-thisfield {
   margin-top: 15px;
 }
+
 .log-into span {
   color: #2c2d35;
   font-size: 16px;
   font-weight: 400;
 }
+
 .log-into span a {
   font-size: 16px;
   font-weight: 700;
@@ -1012,6 +1079,7 @@ li.clock1::before {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
 .price img {
   width: 21px;
   margin-top: -3px;
@@ -1067,10 +1135,12 @@ li.clock1::before {
   margin: 0;
   list-style: none;
 }
+
 .sidemenuw ul li {
   display: block;
   margin-left: 0 !important;
 }
+
 .sidemenuw ul li a {
   background: none;
   color: #fff;
@@ -1111,6 +1181,7 @@ li.clock1::before {
   position: relative;
   padding: 29px 0px;
 }
+
 .main-menu li a:hover {
   color: #2390DC !important;
 }
@@ -1137,6 +1208,7 @@ li.clock1::before {
 .heroarea {
   overflow: hidden;
 }
+
 .heroarea::after,
 .heroarea::before {
   background-image: url(../img/hero-left.png);
@@ -1230,9 +1302,11 @@ li.clock1::before {
   color: #898989;
   font-size: 14px;
 }
+
 .compare-box .content label {
   margin-top: 10px;
 }
+
 .compare-box .content input {
   width: 100%;
   border: 2px solid #E1E1E1;
