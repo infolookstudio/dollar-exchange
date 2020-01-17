@@ -111,7 +111,6 @@ li.clock1::before {
   width: 1px;
   background: #5e8ab4;
   content: "";
-  margin-left: ;
 }
 
 
@@ -959,11 +958,6 @@ li.clock1::before {
   border: 1px solid #E1E1E1;
 }
 
-
-.send-money{
-
-}
-
 .send-money.owl-carousel .owl-nav {
   position: absolute;
   right: 0;
@@ -1189,4 +1183,206 @@ li.clock1::before {
 
 .services-title h1 {
   margin-bottom: 60px;
+}
+
+/* innerpage css */
+.compare-rate-area {
+  background-image: url(../img/hero-shape-1.png);
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.compare-rate-area .heading-title {
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.compare-box-area .title {
+  font-size: 20px;
+  text-align: left;
+}
+
+.compare-boxs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.compare-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+}
+
+.compare-box .icon {
+  flex-basis: 15%;
+}
+
+.compare-box .content {
+  flex-basis: 85%;
+}
+
+
+.compare-box .content label,
+.compare-box .content span {
+  display: block;
+  margin: 0;
+  color: #898989;
+  font-size: 14px;
+}
+.compare-box .content label {
+  margin-top: 10px;
+}
+.compare-box .content input {
+  width: 100%;
+  border: 2px solid #E1E1E1;
+  border-radius: 5px;
+  padding: 8px 12px;
+  color: #646464;
+}
+
+.compare-box .content input::placeholder {
+  color: #646464;
+  font-weight: 600;
+}
+
+.compare-box .content span {
+  font-size: 14px;
+}
+
+.compare-boxs .compare-box:first-child {
+  padding-right: 15px;
+}
+
+.compare-boxs .compare-box:last-child {
+  padding-left: 15px;
+}
+
+.compare-box-area,
+.transition-info {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #888;
+}
+
+.compare-box .icon img {
+  width: 45px;
+  height: 45px;
+}
+
+.compare-box-area .title {
+  margin-bottom: 25px;
+}
+
+.compare-box .content input {
+  border-radius: 6px;
+}
+
+.compare-box .content span {
+  margin-top: 5px;
+}
+
+.transition-info .title {
+  font-size: 20px;
+}
+
+.transition-info {
+  margin-top: 20px;
+  padding: 20px 18px;
+}
+
+.compare-rate-area {
+  padding: 45px 0;
+  padding-bottom: 90px;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.compare-rate-area .heading-title {
+  margin-bottom: 40px;
+}
+
+.transition-info form {
+  display: flex;
+}
+
+.transition-info form input {
+  flex-basis: 38%;
+  border: 2px solid #E1E1E1;
+  padding: 10px 12px;
+  border-radius: 6px;
+  color: #323232;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.transition-info form input[type=submit] {
+  background: #2390DC;
+  border-color: transparent;
+  color: #fff;
+  transition: .2s;
+  flex-basis: 25%;
+  cursor: pointer;
+}
+
+.transition-info form input[type=submit]:hover {
+  background: #086db3;
+}
+
+.transition-info form input[type=text] {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.compare-rate-area input:focus {
+  border-color: #0AA7DE;
+}
+
+.transition-info form input::placeholder {
+  color: #898989;
+}
+
+.how-to-exchange-area {
+  padding-top: 70px;
+  padding-bottom: 35px;
+  color: #fff;
+  background: #074E93;
+}
+
+.how-to-exchange-area .title {
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.how-to-list span {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: #F89021;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.how-to-list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.how-to-list ul li {
+  margin: 15px 0;
+}
+
+.how-to-list {
+  text-align: center;
 }
