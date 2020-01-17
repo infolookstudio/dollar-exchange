@@ -1298,6 +1298,7 @@ li.clock1::before {
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
+  padding-top: 20px;
 }
 
 .compare-rate-area .heading-title {
@@ -1325,6 +1326,8 @@ li.clock1::before {
   transition: .2s;
   flex-basis: 25%;
   cursor: pointer;
+  padding: 7px 12px;
+  font-size: 18px;
 }
 
 .transition-info form input[type=submit]:hover {
