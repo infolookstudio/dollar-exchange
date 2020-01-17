@@ -258,11 +258,30 @@ li.clock1::before {
   z-index: 22;
 }
 
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .heroarea {
-  background: #0D436C;
+  background: linear-gradient(-45deg, #ee7752, #064588, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
   position: relative;
   padding-bottom: 48px;
 }
+
 
 .herobigshape {
   position: absolute;
@@ -1259,10 +1278,74 @@ li.clock1::before {
 
 /* innerpage css */
 .compare-rate-area {
-  background-image: url(../img/hero-shape-1.png);
   background-position: center bottom;
   background-size: cover;
-  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  }
+}
+
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 0;
+  }
+}
+
+@-ms-keyframes animatedBackground {
+  from {
+    background-position: 0 bottom;
+  }
+
+  to {
+    background-position: 100% bottom;
+  }
+}
+
+@-moz-keyframes animatedBackground {
+  from {
+    background-position: 0 bottom;
+  }
+
+  to {
+    background-position: 100% bottom;
+  }
+}
+
+/* #animate-area {
+  width: 560px;
+  height: 400px;
+  background-image: url(bg-clouds.png);
+} */
+
+.compare-rate-area::after {
+  background-image: url(../img/hero-shape-1.png);
+  content: "";
+  height: 460px;
+  left: 0%;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  animation: animatedBackground 30s linear infinite;
+  -ms-animation: animatedBackground 30s linear infinite;
+  -moz-animation: animatedBackground 30s linear infinite;
+  -webkit-animation: animatedBackground 30s linear infinite;
+
 }
 
 .compare-rate-area .heading-title {
