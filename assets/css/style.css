@@ -1,6 +1,6 @@
 /* Base CSS */
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Exo:300,400,400i,500,600,600i,700,900&display=swap');
 
 .alignleft {
   float: left;
@@ -125,25 +125,11 @@ li.clock1 {
   padding-left: 12px;
 }
 
-li.clock1::before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 1px;
-  background: #5e8ab4;
-  content: "";
+.headertop-contact ul li img {
+  margin-right: 10px;
 }
 
-
-
-
-/* Headertop section  END */
-
-
 /* Header area  start */
-
-
 .headerarea {
   display: flex;
   align-items: center;
@@ -275,7 +261,7 @@ li.clock1::before {
 }
 
 .heroarea {
-  background: linear-gradient(-45deg, #982584, #064588, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #00B3EF, #08A033, #08A033, #00B3EF);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   position: relative;
@@ -291,12 +277,6 @@ li.clock1::before {
   width: 92%;
   transform: translate(4%, 8%);
 }
-
-
-
-
-
-
 
 .sendtext p {
   margin-bottom: 0;
@@ -328,10 +308,11 @@ li.clock1::before {
 }
 
 .herotitle h1 {
-  font-size: 40px;
+  font-size: 50px;
   color: #fff;
-  font-weight: 900;
+  font-weight: 800;
   margin: 40px 0;
+  font-family: 'Exo', sans-serif;
 }
 
 
@@ -376,7 +357,7 @@ li.clock1::before {
 }
 
 .sendbox.rightsend a:hover button {
-  background: #F46D20;
+  background: #02AEA8;
   color: #fff;
 }
 
@@ -399,7 +380,7 @@ li.clock1::before {
 
 .securitybox {
   text-align: center;
-  background: #eee1e9;
+  background: #DAF2E5;
   margin-top: 52px;
   border-radius: 8px;
   height: 262px;
@@ -411,12 +392,14 @@ li.clock1::before {
 
 .securitytitle.text-center h1 {
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 800;
   color: #231f20;
+  font-family: 'Exo',
+    sans-serif;
 }
 
 .securitybox.securitybox2 {
-  background: #e0f0eb;
+  background: #D9F4FA;
 }
 
 .securityicon img {
@@ -436,9 +419,10 @@ li.clock1::before {
 }
 
 .securitycontent h4 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 25px;
   color: #231f20;
+  font-family: 'Exo', sans-serif;
 }
 
 
@@ -457,9 +441,9 @@ li.clock1::before {
 
 .custom-text h3 {
   font-size: 25px;
-  font-weight: 700;
+  font-weight: 800;
   color: #282828;
-  font-family: 'Encode Sans Condensed', sans-serif;
+  font-family: 'Exo', sans-serif;
 }
 
 .custom-text p {
@@ -488,22 +472,16 @@ li.clock1::before {
   border-right: 0px;
 }
 
-
 /* customerarea section  END */
 
-
-
-
-
 /* planning section  startr */
-
-
 .singleplaningcontent {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 205px;
-  background: #1365a8;
+  position: relative;
+  z-index: 1;
 }
 
 .singleplaning {
@@ -517,18 +495,24 @@ li.clock1::before {
   margin-top: 24px;
 }
 
+.singleplaningcontent.akashi::after {
+  opacity: .20;
+}
 
-
-
-
-
-
-.singleplaningcontent.akashi {
-  background: #1d72b7;
+.singleplaningcontent::after {
+  background: #0F0F0F;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .10;
+  z-index: -1;
 }
 
 .planing-area {
-  background: #094f89;
+  background: linear-gradient(to right bottom, #FF4A30, #FF9903);
   padding: 65px 0;
 }
 
@@ -547,8 +531,10 @@ li.clock1::before {
 .services-title h1 {
   color: #231f20;
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 42px;
+  font-family: 'Exo', sans-serif;
+
 }
 
 
@@ -561,11 +547,39 @@ li.clock1::before {
 
 
 .footerarea {
-  background: #142d47;
-  height: 250px;
+  background: #353535;
+  position: relative;
+  padding-top: 90px;
+  z-index: 1;
 }
 
+.footerarea::after {
+  content: "";
+  background-image: url(../img/footer-shape.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
 
+.copyright-text {
+  margin-top: 45px;
+  padding: 20px 0px;
+  background: #2A2A2A;
+  color: #535353;
+  position: relative;
+  z-index: 2;
+}
+
+.copyright-text a {
+  color: #5E5E5E;
+  font-weight: 600;
+}
 
 .footerlogo {
   display: flex;
@@ -619,6 +633,7 @@ li.clock1::before {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
 }
 
 .footersocial ul li {
@@ -641,38 +656,36 @@ li.clock1::before {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
-  background: #2390dc;
+  background: #FF5C25;
   display: inline-block;
-  padding: 8px 16px;
+  padding: 13px 35px;
   border-radius: 6px;
+  margin-left: 25px;
 }
 
 .footershape.samepadings {
   padding-top: 25px;
 }
 
-.footercontactwraps.samepadings.threepadings {
-  padding-top: 106px;
-}
-
 
 .footersocial ul li a {
   font-size: 16px;
   color: #acb4b7;
-  display: inline-block;
-  border: 1px solid #acb4b7;
-  width: 36px;
-  height: 36px;
+  border: 2px solid #fff;
+  width: 50px;
+  height: 50px;
   text-align: center;
-  line-height: 36px;
-  border-radius: 50%;
-  margin-right: 22px;
+  border-radius: 10px;
+  display: block;
+  font-size: 30px;
+  line-height: 50px;
+  color: #fff;
 }
 
 .footersocial ul li a:hover {
   background: #5072B8;
-  border: 1px solid transparent;
   color: #fff;
+  border-color: transparent;
 }
 
 
@@ -681,7 +694,7 @@ li.clock1::before {
 }
 
 .footercontact a:hover {
-  background: #0076c9;
+  background: #bd3608;
 }
 
 
@@ -710,21 +723,6 @@ li.clock1::before {
   position: relative;
 }
 
-.footershape1 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 1;
-}
-
-.footershape1 img {
-  width: 100%;
-}
-
-.threepadings {
-  padding-top: 88px;
-}
-
 .footertextt {
   margin-top: 62px;
   text-align: center;
@@ -742,19 +740,6 @@ li.clock1::before {
   z-index: 22;
 }
 
-
-
-
-
-
-
-
-
-
-/* footer section  END */
-
-
-
 /* Header bar section start */
 
 .main-menu ul {
@@ -769,14 +754,14 @@ li.clock1::before {
 }
 
 .main-menu ul li a {
-  color: #2e2e30;
+  color: #646464;
   font-size: 18px;
   font-weight: 700;
   transition: .3s;
 }
 
 .main-menu ul li a:hover {
-  color: #2390DC;
+  color: #02AEA8;
 }
 
 
@@ -785,10 +770,6 @@ li.clock1::before {
   padding: 0;
   list-style: none;
 }
-
-
-
-
 .log-info ul li a {
   color: #fff;
   font-weight: 500;
@@ -798,15 +779,12 @@ li.clock1::before {
   border-radius: 6px;
   text-align: center;
   transition: .3s;
-  background: #00518F;
+  background: #FF5C25;
 }
-
-
-
 
 .log-info ul li a.black-text {
   color: #fff;
-  background: #2390dc;
+  background: #02AEA8;
 }
 
 .log-info ul li a:hover {
@@ -817,11 +795,11 @@ li.clock1::before {
 
 .log-info ul li a:hover {
   color: #fff;
-  background: #0076C9;
+  background: #c53909;
 }
 
 .log-info ul li a.black-text:hover {
-  background: #0076c9;
+  background: #037b77;
 }
 
 
@@ -1196,13 +1174,13 @@ li.clock1::before {
 }
 
 .main-menu li a {
-  color: #393939 !important;
+  color: #646464 !important;
   position: relative;
   padding: 29px 0px;
 }
 
 .main-menu li a:hover {
-  color: #2390DC !important;
+  color: #02AEA8 !important;
 }
 
 .main-menu li a:hover::after {
@@ -1211,7 +1189,7 @@ li.clock1::before {
   bottom: 0;
   left: 0;
   height: 5px;
-  background: #2390DC;
+  background: #02AEA8;
   opacity: 1;
   visibility: visible;
   width: 100%;
@@ -1274,6 +1252,9 @@ li.clock1::before {
 
 .services-title h1 {
   margin-bottom: 60px;
+  font-family: 'Exo',
+    sans-serif;
+  font-weight: 800;
 }
 
 /* innerpage css */
@@ -1540,4 +1521,8 @@ li.clock1::before {
 
 .how-to-list {
   text-align: center;
+}
+
+.footersocial ul li:not(:first-child) {
+  margin-left: 25px;
 }
