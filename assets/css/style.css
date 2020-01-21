@@ -232,7 +232,7 @@ li.clock1 {
 }
 
 .sendbox img {
-  width: 45px;
+  width: 40px;
 }
 
 
@@ -288,7 +288,7 @@ li.clock1 {
 .sendtext p {
   font-weight: 900;
   color: #393939;
-  font-size: 24px;
+  font-size: 20px;
   text-transform: capitalize;
 }
 
@@ -599,9 +599,13 @@ li.clock1 {
 }
 
 .address a {
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
   font-weight: 400;
+}
+
+.address img {
+  transform: translateY(-3px);
 }
 
 .footershape ul {
@@ -614,10 +618,8 @@ li.clock1 {
   display: inline-block;
 }
 
-
-
 .footershape ul li a {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
   color: #acb4b7;
   display: inline-block;
@@ -661,10 +663,6 @@ li.clock1 {
   padding: 13px 35px;
   border-radius: 6px;
   margin-left: 25px;
-}
-
-.footershape.samepadings {
-  padding-top: 25px;
 }
 
 
@@ -942,6 +940,7 @@ li.clock1 {
   color: #8f8f8f;
   font-weight: 500;
   font-size: 16px;
+  border: 1px solid transparent
 }
 
 .try-thisfield a {
@@ -1327,11 +1326,16 @@ li.clock1 {
   font-size: 50px;
   font-weight: 800;
   text-align: center;
+  font-family: 'Exo',
+  sans-serif;
 }
+
 
 .compare-box-area .title {
   font-size: 20px;
   text-align: left;
+  font-family: 'Exo',
+  sans-serif;
 }
 
 .compare-boxs {
@@ -1525,4 +1529,34 @@ li.clock1 {
 
 .footersocial ul li:not(:first-child) {
   margin-left: 25px;
+}
+
+.modal-dialog {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.for-loginmethod .modal-content {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+}
+
+.for-loginmethod .modal-dialog {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.modal {
+  padding-right: 0px !important;
+}
+
+.modal[style] {
+  padding-right: 0px;
+}
+
+.modal-dialog {
+  margin: 0px !important;
 }
