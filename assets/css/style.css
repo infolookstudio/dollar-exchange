@@ -92,7 +92,7 @@ a:hover {
 
 .headertop-contact ul li {
   display: inline-block;
-  color: #c6d3de;
+  color: #fff;
   font-size: 14px;
   font-weight: 500;
 }
@@ -283,6 +283,7 @@ li.clock1 {
   font-size: 14px;
   color: #575c60;
   font-weight: 700;
+  font-family: 'Exo', sans-serif;
 }
 
 .sendtext p {
