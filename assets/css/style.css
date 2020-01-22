@@ -290,6 +290,7 @@ li.clock1 {
 
 .header-area {
   border-top: 1px solid #ddd;
+  padding: 15px 0;
 }
 
 .sendtext p {
@@ -364,7 +365,7 @@ li.clock1 {
 }
 
 .sendbox.rightsend a:hover button {
-  background: #FF7219;
+  background: #037b77;
   color: #fff;
 }
 
@@ -824,7 +825,7 @@ li.clock1 {
 
 .log-info ul li {
   display: inline-block;
-  margin-left: 16px;
+  margin-left: 14px;
 }
 
 
@@ -1583,4 +1584,8 @@ li.clock1 {
 
 .how-to-exchange-area.inner {
   background: #2A3B49;
+}
+
+.compare-box .content span i {
+  transform: rotate(180deg);
 }
