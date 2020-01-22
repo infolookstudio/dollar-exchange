@@ -1,33 +1,276 @@
-/* XL Device :1200px. */
-@media (min-width: 1200px) and (max-width: 1449px) {
+@media (max-width: 1200px) {
+    .headertop-contact ul li img {
+        width: 20px;
+        margin-right: 5px;
+    }
 
+    li.clock1 {
+        padding-left: 10px;
+        margin-left: -4px;
+    }
 }
 
-/* LG Device :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (max-width: 991px) {
+    .headertopmain {
+        justify-content: center;
+    }
 
+    .random-notification {
+        margin-top: 10px;
+        line-height: 1.1;
+    }
 
+    .main-menu-fills {
+        justify-content: center;
+    }
+
+    .log-info.text-right {
+        text-align: center !important;
+        margin-top: 15px;
+    }
+
+    .heroleft {
+        margin-bottom: 30px;
+    }
+
+    .securitytitle.text-center h1 {
+        font-size: 36px;
+    }
+
+    .services-title h1 {
+        font-size: 36px;
+    }
+
+    .herotitle h1 {
+        font-size: 36px;
+        margin: 20px 0;
+    }
+
+    .heroarea {
+        padding-bottom: 20px;
+    }
+
+    .single-custom {
+        padding: 0 15px;
+    }
+
+    .custom-text p {
+        font-size: 14px;
+    }
+
+    .footerlogo {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .footercontactwraps {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .copyright-text {
+        text-align: center;
+    }
+
+    .copyright-text .text-right {
+        text-align: center !important;
+    }
+
+    .footerarea {
+        padding-top: 50px;
+    }
+    .transition-info form {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .transition-info form input[type=submit] {
+        margin-top: 10px;
+    }
+
+    .transition-info .title {
+        text-align: center;
+    }
+
+    .compare-box-area .title {
+        text-align: center;
+    }
+
+    .compare-rate-area .heading-title {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .compare-box {
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+    .compare-box .icon {
+        text-align: center;
+    }
+
+    .compare-boxs .compare-box:first-child {
+        padding-right: 0;
+    }
+
+    .compare-boxs .compare-box:last-child {
+        padding-left: 0;
+    }
+
+    .how-to-exchange-area .title {
+        font-size: 36px;
+    }
+
+    .how-to-exchange-area {
+        padding-top: 30px;
+    }
+
+    .how-to-list ul {
+        padding: 0;
+    }
+
+    .how-to-list ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .how-to-list ul li {
+        margin: 5px 0;
+    }
+
+    .how-to-list img {
+        margin: 20px 0;
+    }
 }
 
- 
-/* MD Device :768px. */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 767px) {
+    .single-custom {
+        margin: 15px 0;
+        padding-bottom: 15px;
+        border-right: 0px;
+    }
 
+    .services-title h1 {
+        margin-bottom: 20px;
+        font-size: 26px;
+    }
+
+    .custom-area {
+        padding: 30px 0;
+    }
+
+    .securitytitle.text-center h1 {
+        font-size: 26px;
+    }
+
+    .securitycontent h4 {
+        font-size: 20px;
+    }
+
+    .custom-text h3 {
+        font-size: 20px;
+    }
+
+    .planing-area {
+        padding: 30px 0;
+    }
+
+    .partner-area .services-title h1 {
+        margin-bottom: 20px;
+    }
+
+    .partner-area {
+        padding: 30px 0;
+    }
+    .footerarea::after {
+        background-size: cover;
+    }
 }
- 
 
-/* SM Small Device :320px. */
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 483px) {
+    .main-menu-fills {
+        flex-direction: column;
+    }
 
+    .main-menu ul li {
+        margin-right: 0;
+    }
 
+    .sticky .main-menu ul li a {
+        padding: 0;
+    }
+
+    .main-menu {
+        margin-top: 15px;
+    }
+
+    .main-menu li:not(:first-child) {
+        margin-left: 15px;
+    }
+
+    .log-info ul li a {
+        font-size: 14px;
+    }
+
+    .log-info ul li {
+        margin: 0;
+    }
+
+    .log-info.text-right {
+        margin-top: 8px;
+    }
+
+    .log-info ul li:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .main-logo {
+        margin: 0;
+    }
+
+    .headertop-contact ul li {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .headertop-contact ul li:not(:first-child) {
+        margin-top: 8px;
+    }
+
+    .herotitle h1 {
+        font-size: 24px;
+    }
 }
 
+@media (max-width: 347px) {
+    .footercontact a {
+        font-size: 14px;
+        padding: 12px 25px;
+        margin-left: 15px;
+    }
 
+    .footersocial ul li a {
+        font-size: 20px;
+        width: 40px;
+        height: 35px;
+        line-height: 35px;
+        border-radius: 4px;
+    }
 
+    .footershape ul li a {
+        font-size: 16px;
+    }
 
+    .address a {
+        font-size: 14px;
+    }
 
-/* SM Small Device :550px. */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-
- 
+    .footersocial ul li:not(:first-child) {
+        margin-left: 15px;
+    }
 }

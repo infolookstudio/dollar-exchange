@@ -73,7 +73,7 @@
     $(".partner-carousel").owlCarousel({
         items:4,
         nav:false,
-        dot:false,
+        dots:false,
         loop:true,
         margin:20,
         navText:['<i class="fal fa-angle-right"></i>'],
