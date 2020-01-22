@@ -69,6 +69,37 @@
             }
         }
     });
+
+    $(".partner-carousel").owlCarousel({
+        items:4,
+        nav:false,
+        dot:false,
+        loop:true,
+        margin:20,
+        navText:['<i class="fal fa-angle-right"></i>'],
+        autoplay:false,
+        autoplayTimeout:3000,
+        smartSpeed:1000,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            400:{
+                items:2,
+                
+            },
+            768:{
+                items:3,
+                
+            },
+            1000:{
+                items:4,
+                
+            }
+        }
+    });
+
     });
 
     

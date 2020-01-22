@@ -1560,3 +1560,25 @@ li.clock1 {
 .modal-dialog {
   margin: 0px !important;
 }
+
+/* partner area css */
+.single-partner img {
+  width: auto !important;
+}
+
+.single-partner {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+}
+
+.partner-area {
+  padding: 50px 0;
+}
+
+.partner-area .services-title h1 {
+  color: #231F20;
+  margin-bottom: 50px;
+}
