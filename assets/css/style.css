@@ -357,7 +357,7 @@ li.clock1 {
 }
 
 .sendbox.rightsend a:hover button {
-  background: #02AEA8;
+  background: #FF7219;
   color: #fff;
 }
 
@@ -681,7 +681,7 @@ li.clock1 {
 }
 
 .footersocial ul li a:hover {
-  background: #5072B8;
+  background: #FF5C25;
   color: #fff;
   border-color: transparent;
 }
@@ -711,7 +711,7 @@ li.clock1 {
 
 
 .footershape ul li a:hover {
-  color: #2390dc;
+  color: #e65a0b;
 }
 
 
@@ -1457,7 +1457,7 @@ li.clock1 {
 }
 
 .transition-info form input[type=submit] {
-  background: #2390DC;
+  background: #FF5C25;
   border-color: transparent;
   color: #fff;
   transition: .2s;
@@ -1468,7 +1468,7 @@ li.clock1 {
 }
 
 .transition-info form input[type=submit]:hover {
-  background: #086db3;
+  background: #bd3608;
 }
 
 .transition-info form input[type=text] {
@@ -1581,4 +1581,8 @@ li.clock1 {
 .partner-area .services-title h1 {
   color: #231F20;
   margin-bottom: 50px;
+}
+
+.how-to-exchange-area.inner {
+  background: #2A3B49;
 }
