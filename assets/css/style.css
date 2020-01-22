@@ -377,7 +377,10 @@ li.clock1 {
 
 
 
-
+.herotitle h1 {
+  position: relative;
+  z-index: 6;
+}
 
 
 /* hero area  END */
