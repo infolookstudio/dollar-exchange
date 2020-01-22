@@ -1582,6 +1582,7 @@ li.clock1 {
   align-items: center;
   justify-content: center;
   border: 1px solid #ddd;
+  padding: 25px;
 }
 
 .partner-area {
