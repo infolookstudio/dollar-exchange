@@ -1618,3 +1618,9 @@ li.clock1 {
 .sticky .main-menu ul li a {
   padding-bottom: 33px;
 }
+
+button:focus,
+a:focus,
+input[type=button]:focus {
+  outline: none;
+}

@@ -8,6 +8,52 @@
         padding-left: 10px;
         margin-left: -4px;
     }
+
+    .compare-rate-area .heading-title {
+        font-size: 40px;
+    }
+
+    .compare-rate-area .heading-title {
+        font-size: 40px;
+    }
+
+    .custom-text h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .single-custom {
+        padding: 0 15px;
+    }
+
+    .partner-area .services-title h1 {
+        font-size: 36px;
+    }
+
+    .compare-box .icon {
+        flex-basis: 20%;
+    }
+
+    .compare-box .content {
+        flex-basis: 80%;
+    }
+
+    .services-title h1,
+    .services-title.planningtitle h1 {
+        font-size: 36px;
+    }
+
+    .herotitle h1 {
+        font-size: 36px;
+    }
+
+    .securitytitle.text-center h1 {
+        font-size: 36px;
+    }
+
+    .how-to-list span {
+        margin-bottom: 5px;
+    }
 }
 
 @media (max-width: 991px) {
