@@ -110,6 +110,14 @@
         }
     });
 
+    $(".sideicon").on("click", function () {
+        $(".overlayed, .sidebarlists").addClass("actives");
+    });
+
+    $(".overlayed, .crossbars").on("click", function () {
+        $(".sidebarlists, .overlayed").removeClass("actives");
+    });
+
     });
 
     

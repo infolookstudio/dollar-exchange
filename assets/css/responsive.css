@@ -57,6 +57,9 @@
 }
 
 @media (max-width: 991px) {
+    .sideicon {
+        display: inline-block;
+    }
     .headertopmain {
         justify-content: center;
     }
@@ -149,8 +152,11 @@
     }
 
     .compare-box {
-        flex-direction: column;
         flex-basis: 100%;
+    }
+
+    .compare-boxs .compare-box:first-child {
+        margin-bottom: 20px;
     }
 
     .compare-box .icon {
@@ -190,6 +196,78 @@
 
     .how-to-list img {
         margin: 20px 0;
+    }
+
+    .headertop-contact {
+        display: none;
+    }
+
+    .random-notification {
+        display: flex;
+        align-items: center;
+    }
+
+    .sideicon {
+        margin-right: 15px;
+    }
+
+    .random-notification {
+        margin: 0;
+    }
+
+    .headertoparea {
+        padding-top: 5px;
+    }
+
+    .sidebarlists {
+        padding: 20px;
+    }
+
+    .mainmenu ul li a {
+        font-size: 18px;
+        margin: 5px 0;
+        color: #fff;
+    }
+
+    .hamburger-menu .headertop-contact {
+        display: block;
+    }
+
+    .hamburger-menu .headertop-contact a {
+        color: #222;
+    }
+
+    .mainmenu {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #6b6969;
+        padding-bottom: 10px;
+    }
+
+    .hamburger-menu .headertop-contact ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .hamburger-menu .headertop-contact ul li {
+        padding: 0;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .main-menu-fills {
+        justify-content: flex-start;
+    }
+
+    .header-area {
+        position: relative;
+    }
+
+    .log-info.text-right {
+        text-align: right !important;
+        position: absolute;
+        right: 15px;
+        top: -60px;
     }
 }
 
@@ -237,11 +315,45 @@
     }
 }
 
-@media (max-width: 483px) {
-    .main-menu-fills {
-        flex-direction: column;
+@media (max-width: 575px) {
+    .securitycontent {
+        padding: 10px 15px;
+    }
+    .how-to-list ul {
+        justify-content: flex-start;
+        align-items: baseline;
     }
 
+    .how-to-list.all {
+        display: none;
+    }
+
+    .how-to-list.mobile {
+        display: block;
+    }
+
+    .transition-info form input {
+        flex-basis: 100%;
+    }
+
+    .transition-info form input[type=text] {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .transition-info form input[type=submit] {
+        flex-basis: 100%;
+    }
+    .compare-rate-area .heading-title {
+        font-size: 24px;
+    }
+
+    .how-to-exchange-area .title,
+    .partner-area .services-title h1 {
+        font-size: 24px;
+    }
+}
+@media (max-width: 483px) {
     .main-menu ul li {
         margin-right: 0;
     }
@@ -291,8 +403,27 @@
     .herotitle h1 {
         font-size: 24px;
     }
+
+    .log-info.text-right {
+        top: -49px;
+    }
 }
 
+@media (max-width: 375px) {
+.main-logo a {
+    display: inline-block;
+    width: 75%;
+}
+
+.log-info ul li a {
+    padding: 6px 12px;
+}
+
+.log-info.text-right {
+    margin: 0;
+    top: -33px;
+}
+}
 @media (max-width: 347px) {
     .footercontact a {
         font-size: 14px;
