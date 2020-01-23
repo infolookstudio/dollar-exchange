@@ -68,7 +68,6 @@ a:hover {
   background: #2A3B49;
   padding: 10px 0;
   margin-bottom: 12px;
-  padding-bottom: 0px;
 }
 
 .headertopmain {
@@ -1248,6 +1247,11 @@ li.clock1 {
 
 .random-notification {
   color: #fff;
+  line-height: 1;
+}
+
+.random-notification p {
+  margin-bottom: 0px;
 }
 
 .services-title h1 {
