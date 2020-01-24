@@ -1630,7 +1630,7 @@ input[type=button]:focus {
   max-width: 1200px;
 }
 
-.how-to-list.mobile {
+.how-to-exchange-area.inner .row .col-lg-4:nth-child(1) {
   display: none;
 }
 
@@ -1813,3 +1813,4 @@ input[type=button]:focus {
 .securitycontent {
   padding: 28px 50px;
 }
+

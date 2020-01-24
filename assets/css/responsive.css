@@ -324,7 +324,10 @@
         align-items: baseline;
     }
 
-    .how-to-list.all {
+    .how-to-exchange-area.inner .row .col-lg-4:nth-child(1) {
+        display: block;
+    }
+    .how-to-exchange-area.inner .row .col-lg-4:nth-child(3) {
         display: none;
     }
 
